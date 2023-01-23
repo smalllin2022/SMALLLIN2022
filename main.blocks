@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Hl68[$^Y6~UY_M0sgFh.">方位</variable></variables><block type="pxt-on-start" id="V=(/?y|zdXOEp={W7PPQ" x="0" y="0"></block><block type="device_forever" id="-t+YM;4;kovYmtp[V$Qh" x="354" y="22"><statement name="HANDLER"><block type="variables_set" id="j_^z^J4K[$:x}eo_(Q_4"><field name="VAR" id="Hl68[$^Y6~UY_M0sgFh.">方位</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="LBk[bs,^MOHSnR8Cq^!f"></block></value><next><block type="controls_if" id="RrGk[_S6@4MXb]]FU)(@"><mutation elseif="3" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="/M1x9UHf_XUR4b:a),ez"><field name="OP">LT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="X-0^U`*fZ0Bp)UvCV.YH"><field name="VAR" id="Hl68[$^Y6~UY_M0sgFh.">方位</field></block></value><value name="B"><shadow type="math_number" id="?%bMJN^Lp:f]RmthTtE*"><field name="NUM">45</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="~)XCuz8+[)[@54TThDk^"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="W1v}fZ.vesLAJH|rlZQW"><field name="OP">LT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="~(+-@5*1H2SYk;3p:xwG"><field name="VAR" id="Hl68[$^Y6~UY_M0sgFh.">方位</field></block></value><value name="B"><shadow type="math_number" id="ClDC9_:oToa~[^_-%g}9"><field name="NUM">135</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="7TL`R.bADjJov4MIj%37"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        # # # . # 
+        . . . # . 
+        . . # . .
+        `</field></block></statement><value name="IF2"><block type="logic_compare" id="h!*/GK3oG,cG!sNiCTd8"><field name="OP">LT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="bAq%|=~NBF@uZ:XQ#RUR"><field name="VAR" id="Hl68[$^Y6~UY_M0sgFh.">方位</field></block></value><value name="B"><shadow type="math_number" id="qBS)Ulh1%:IxOYT7L)7P"><field name="NUM">225</field></shadow></value></block></value><statement name="DO2"><block type="device_show_leds" id="A=D7Rn}:_H`2N4yTh;W}"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # . # . 
+        . . # . .
+        `</field></block></statement><value name="IF3"><block type="logic_compare" id="$bdu$hWv|M^?^V3Gb;lU"><field name="OP">LT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="Zn(eu0#pfNxP.Y?:@w%9"><field name="VAR" id="Hl68[$^Y6~UY_M0sgFh.">方位</field></block></value><value name="B"><shadow type="math_number" id="T7#M_@L$X?R#)4A@vSYy"><field name="NUM">315</field></shadow></value></block></value><statement name="DO3"><block type="device_show_leds" id="[hPUF[aG:iTZ[66Q3/CI"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # . # # # 
+        . # . . . 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="mLQ}2dv@Aaxfe3/Z9w6%"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field></block></statement></block></next></block></statement></block><block type="device_pin_event" id="mU+:plIl)KHH_s{Y77$:" x="23" y="324"><field name="name">TouchPin.P0</field></block></xml>
